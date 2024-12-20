@@ -1,0 +1,71 @@
+[HEADER]
+InstrumentCode=0010333A
+
+DirectFromInstrument=0
+OpticsType=0
+OpticsReadingsIn=0
+OpticsReadingsOut=0
+InstrumentCalCondNoCage=0.00;0.00;-1.75
+InstrumentCalCondWithCage=0.00;1.00;0.00
+CageFitted=Yes
+InstrumentCalPressure=0.00;0.00;0.00
+InstrumentCalTempRes=NaN;NaN;NaN
+InstrumentCalTemp=0.00;0.00;0.00
+UserCalCond=0.00;1.00;0.00
+UserCalPressure=0.00;1.00;0.00
+UserCalTemp=0.00;1.00;0.00
+InstrumentCalOpticsCal1=0.00;1.00;0.00
+InstrumentCalOpticsCal2=0.00;1.00;0.00
+UserCalOpticsCal1=0.00;1.00;0.00
+UserCalOpticsCal2=0.00;1.00;0.00
+Instrument=SWIFT CTD
+DeviceSeries=SWIFT
+DeviceType=CTD
+SerialNumber=78591
+InstrumentFirmware=0650735D4 May  7 2021 11:25
+OperationalMode=CONTINUOUS
+SamplingRateHz=32
+SiteInfoAscii=CTD-Valeport
+SiteInfoHexUnicode=~~ N/A ~~
+SiteInfoType=ASCII
+Latitude=-5.820802
+Longitude=106.2818
+BatteryVoltage=4.10
+BatteryRemaining=135.26
+PressureTareDbar=10.09
+PressureTareSubtracted=1
+DateStartTime=2024/10/13 05:13:10
+SamplingInterval=0.03125
+RowCount=13
+MaxDepthM=0.001
+AverageCondMspcm=0.00
+AverageTempDegC=28.98
+MinTime=20241013051310
+MaxTime=20241013051322
+
+[COLUMNS]
+Date/Time=Date/Time;;
+Depth=Float;m;Calculated
+Pressure=Float;dBar;
+Temperature=Float;DegC;
+Conductivity=Float;mS/cm;
+Salinity=Float;PSU;Calculated
+Sound Velocity=Float;Ms-1;Calculated
+Density=Float;kg/M3;Calculated
+
+[DATA]
+Date/Time	Depth	Pressure	Temperature	Conductivity	Salinity	Sound Velocity	Density
+	m	dBar	DegC	mS/cm	PSU	Ms-1	kg/M3
+2024/10/13 05:13:10.000	0.000	0.000	29.029	-0.008	0.014	1506.886	995.948	
+2024/10/13 05:13:11.000	0.000	0.000	28.979	-0.008	0.014	1506.766	995.963	
+2024/10/13 05:13:12.000	0.001	0.001	28.955	-0.008	0.014	1506.708	995.970	
+2024/10/13 05:13:13.000	0.001	0.001	28.936	-0.008	0.014	1506.663	995.976	
+2024/10/13 05:13:14.000	0.001	0.001	28.921	-0.008	0.014	1506.629	995.980	
+2024/10/13 05:13:15.000	0.000	0.000	28.931	-0.010	0.014	1506.652	995.977	
+2024/10/13 05:13:16.000	0.000	0.000	28.935	-0.009	0.014	1506.661	995.976	
+2024/10/13 05:13:17.000	0.001	0.001	28.946	-0.008	0.014	1506.689	995.973	
+2024/10/13 05:13:18.000	0.000	0.000	28.985	-0.009	0.014	1506.780	995.961	
+2024/10/13 05:13:19.000	0.000	0.000	29.007	-0.008	0.014	1506.832	995.955	
+2024/10/13 05:13:20.000	0.001	0.001	29.029	-0.008	0.014	1506.886	995.948	
+2024/10/13 05:13:21.000	0.000	0.000	29.040	-0.008	0.014	1506.911	995.945	
+2024/10/13 05:13:22.000	0.000	0.000	29.061	-0.009	0.014	1506.962	995.939	

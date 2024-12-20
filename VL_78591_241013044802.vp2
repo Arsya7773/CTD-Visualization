@@ -1,0 +1,60 @@
+[HEADER]
+InstrumentCode=0010333A
+
+DirectFromInstrument=0
+OpticsType=0
+OpticsReadingsIn=0
+OpticsReadingsOut=0
+InstrumentCalCondNoCage=0.00;0.00;-1.75
+InstrumentCalCondWithCage=0.00;1.00;0.00
+CageFitted=Yes
+InstrumentCalPressure=0.00;0.00;0.00
+InstrumentCalTempRes=NaN;NaN;NaN
+InstrumentCalTemp=0.00;0.00;0.00
+UserCalCond=0.00;1.00;0.00
+UserCalPressure=0.00;1.00;0.00
+UserCalTemp=0.00;1.00;0.00
+InstrumentCalOpticsCal1=0.00;1.00;0.00
+InstrumentCalOpticsCal2=0.00;1.00;0.00
+UserCalOpticsCal1=0.00;1.00;0.00
+UserCalOpticsCal2=0.00;1.00;0.00
+Instrument=SWIFT CTD
+DeviceSeries=SWIFT
+DeviceType=CTD
+SerialNumber=78591
+InstrumentFirmware=0650735D4 May  7 2021 11:25
+OperationalMode=CONTINUOUS
+SamplingRateHz=32
+SiteInfoAscii=CTD-Valeport
+SiteInfoHexUnicode=~~ N/A ~~
+SiteInfoType=ASCII
+Latitude=-5.81615
+Longitude=106.2859
+BatteryVoltage=4.10
+BatteryRemaining=135.48
+PressureTareDbar=10.09
+PressureTareSubtracted=1
+DateStartTime=2024/10/13 04:48:02
+SamplingInterval=0.03125
+RowCount=2
+MaxDepthM=0.018
+AverageCondMspcm=0.00
+AverageTempDegC=32.05
+MinTime=20241013044802
+MaxTime=20241013044803
+
+[COLUMNS]
+Date/Time=Date/Time;;
+Depth=Float;m;Calculated
+Pressure=Float;dBar;
+Temperature=Float;DegC;
+Conductivity=Float;mS/cm;
+Salinity=Float;PSU;Calculated
+Sound Velocity=Float;Ms-1;Calculated
+Density=Float;kg/M3;Calculated
+
+[DATA]
+Date/Time	Depth	Pressure	Temperature	Conductivity	Salinity	Sound Velocity	Density
+	m	dBar	DegC	mS/cm	PSU	Ms-1	kg/M3
+2024/10/13 04:48:02.000	0.018	0.018	32.054	-0.007	0.015	1513.753	995.022	
+2024/10/13 04:48:03.000	0.000	0.000	32.050	-0.008	0.015	1513.745	995.023	
